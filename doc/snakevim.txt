@@ -1,0 +1,58 @@
+*snakevim.txt*  For Vim version 7.3     Last change: 10 December 2024
+
+Author:     Thibault Dayris
+Repo:       https://github.com/tdayris/snakevim
+License:    MIT (see |license|)
+Requires:   Vim Ver7.0+
+Version:    1.0
+
+Snakevim brings Snakefmt and Snakedeploy in VIM
+
+COMMANDS        *snakevim*  
+
+-------------------------------------------------------------------------------
+                *:Snakefmt*
+
+:Snakefmt
+
+Format any Snakefile with Snakefmt.
+
+Note that the responsibility for selecting a syntactically correct (aside from
+indentation) piece of code lies entirely on you. Formatting an incorrect piece
+of code will result in an error.
+
+
+-------------------------------------------------------------------------------
+                *:Pinconda*
+
+:Pinconda
+
+Pins the conda environment.
+
+Note that the responsibility for selecting a syntactically correct yaml 
+description of conda environemnt. Pinning an incorrect yaml file will 
+result in an error.
+
+-------------------------------------------------------------------------------
+                *:Updateconda*
+
+:Updateconda
+
+Update exinsting yaml description of conda environemnt and pins the conda it.
+
+Note that the responsibility for selecting a syntactically correct yaml 
+description of conda environemnt. Updating an incorrect yaml file will 
+result in an error.
+
+
+-------------------------------------------------------------------------------
+                *:Wrappersupdate*
+
+:Wrappersupdate
+
+Update snakemake wrappers specifications.
+
+Note that the responsibility for selecting a syntactically correct snakefile. 
+Updating an incorrect snakefile file will result in an error.
+
+

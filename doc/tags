@@ -1,0 +1,6 @@
+:Pinconda	snakevim.txt	/*:Pinconda*
+:Snakefmt	snakevim.txt	/*:Snakefmt*
+:Updateconda	snakevim.txt	/*:Updateconda*
+:Wrappersupdate	snakevim.txt	/*:Wrappersupdate*
+snakevim	snakevim.txt	/*snakevim*
+snakevim.txt	snakevim.txt	/*snakevim.txt*
